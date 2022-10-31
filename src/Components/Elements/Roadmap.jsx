@@ -43,6 +43,36 @@ const Roadmap = () => {
 
         <div className="line4"></div>
 
+        <div className="circle4">
+          <div className="head">
+            <ul className="unorder">
+              <li>Strategy_Builder</li>
+              <li className="mt-2">Maximizer_Pools</li>
+              <li className="mt-2">Partnerships</li>
+            </ul>
+            <h4>Armor</h4>
+          </div>
+        </div>
+
+
+        <div className="line5"></div>
+
+
+        <div className="circle5">
+          <div className="head">
+          <h4>Armor</h4>
+            <ul className="unorder">
+              <li>Strategy_Builder</li>
+              <li className="mt-2">Maximizer_Pools</li>
+              <li className="mt-2">Partnerships</li>
+            </ul>
+            
+          </div>
+        </div>
+
+
+        <div className="line6"></div>
+
 
       </div>
     </div>

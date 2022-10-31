@@ -9,6 +9,13 @@
 }
 
 //hero-sectiom
+@media screen and (max-width: 920px) 
+{
+  .img1
+  {
+    display: none;
+  }  
+}
 .hero-section
 {
   
@@ -147,12 +154,19 @@
 
 
 //roadmap-section
+@media screen and (max-width:1000px) 
+{
+  .roadmap-section
+  {
+    display: none;
+  }
+}
 .roadmap-section
 {
   background-color: #0B132B !important; 
    
   position: relative;
-  height: 30rem;
+  height: 20rem;
   .line
   {
     margin-top: 8rem;
@@ -273,14 +287,82 @@
 
   .line4
   {
-  
-  
   position: absolute;
   right: 32rem;
   top: 8rem;
   width: 16rem;
   height: 3px;
   background-color: #768f8b;
+  }
+
+  .circle4
+  {
+
+    position: absolute;
+    width: 2rem;
+    top: 7rem;
+    border-radius: 50%;
+    right: 30rem;
+    height: 30px;
+    background-color: #86DFD2; 
+    .head
+    {
+      position: relative;
+      color: white;
+      top: 2rem;
+      left: 1rem;
+    }
+    .unorder
+  {
+    border-left: 3px dashed #86DFD2;
+    li{
+      color: #86DFD2;
+    }
+  }
+  }
+  .line5
+  {
+  position: absolute;
+  right: 14rem;
+  top: 8rem;
+  width: 16rem;
+  height: 3px;
+  background-color: #768f8b;
+  }
+  .line6
+  {
+  position: absolute;
+  right: 0rem;
+  top: 8rem;
+  width: 12rem;
+  height: 3px;
+  background-color: #768f8b;
+  }
+
+  .circle5
+  {
+
+    position: absolute;
+    width: 2rem;
+    top: 7rem;
+    border-radius: 50%;
+    right: 12rem;
+    height: 30px;
+    background-color: #86DFD2; 
+    .head
+    {
+      position: relative;
+      color: white;
+      top: -8rem;
+      left: 1rem;
+    }
+    .unorder
+  {
+    border-left: 3px dashed #86DFD2;
+    li{
+      color: #86DFD2;
+    }
+  }
   }
 
 }
