@@ -3,7 +3,8 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="hero-section">
-      <div className="container">
+      <img src="./Assists/10005.png" className=" w-75" style={{position:"absolute",width:"57%",right:'0px',top:"-13rem"}} alt="" />
+      <div className="container " style={{position:"relative"}}>
         <div className="row">
           <div className="col-lg-6 text-white mt-5">
             <h1 className="fw-bolder  mt-5">

@@ -4,7 +4,7 @@ const Invest = () => {
   return (
     <div className="invest-section">
       <div className="container text-white">
-        <div className="row">
+        <div className="row ">
           <div className="col-lg-4 investMT">
             <h5 className="fw-bolder" style={{ color: "#6fffe9c7" }}>
               Invest The Right Way
@@ -44,7 +44,7 @@ const Invest = () => {
             </div>
           </div>
 
-          
+
           <div className="col-lg-4 investMT2">
             <div
               className="card h-100"
@@ -72,7 +72,7 @@ const Invest = () => {
         </div>
 
        
-
+<br /><br /><br />
       </div>
     </div>
   );

@@ -12,10 +12,10 @@
 .hero-section
 {
   
-  background-image: url(./Media/10002.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-image: url(./Media/10005.png);
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
   background-color: #121e44 !important;
   h1{
   font-size: 3rem;
@@ -45,7 +45,7 @@
 }
 .invest-section
 {
-  background-color: #121E44 !important;
+  background-color: #0B132B;
   .investMT2
   {
     margin-top: 5rem;
@@ -68,7 +68,28 @@
 
 
 //CrossChain-section
+@media screen and (max-width: 1000px)
+{
+  .CrossChain-section
+  {
+    display: none;
+  }
+}
 .CrossChain-section
+{
+  background-color: #0B132B;
+  .right-table{
+  li{
+    background-color: #1C2541;
+    margin-top: 5px;
+    color: white;
+    border-left: 2px solid #86DFD2 !important;
+  }
+}
+}
+
+//PrivateSale-sextion
+.PrivateSale-sextion
 {
   background-color: #0B132B;
   .btn1
@@ -79,21 +100,190 @@
 
 
 
+//TokenAllocation-section
+.TokenAllocation-section
+{
+  background-color: #0B132B !important; 
+
+  chart
+  {
+    fill: orange;
+  }
+  // path{
+  //   fill: #3ff2f2;
+  // }
+  rect{
+    fill: transparent;
+    // color: white !important;
+  }
+  text{
+    fill: white;
+  }
+//   circle
+// {
+//   fill: #3ff2f2;
+// }
+
+}
 
 
 
 
 
 
+//TokenValue-section
+.TokenValue-section
+{
+  background-color: #0B132B !important; 
+  .card-body
+  {
+    background-color: #0E2D49 ;
+  }
+  .card{
+    margin-bottom: 5rem;
+  }
+
+}
 
 
+//roadmap-section
+.roadmap-section
+{
+  background-color: #0B132B !important; 
+   
+  position: relative;
+  height: 30rem;
+  .line
+  {
+    margin-top: 8rem;
+    
+  position: absolute;
+  width: 10rem;
+  height: 3px;
+  background-color: #86DFD2;
+  }
+  .circle
+  {
+    
+
+    margin-top: 8rem;
+
+    position: absolute;
+    width: 2rem;
+    top: -14px;
+    border-radius: 50%;
+    left: 10rem;
+    height: 30px;
+    background-color: #86DFD2; 
+    .head
+    {
+      position: relative;
+      color: white;
+      top: -8rem;
+      left: 1rem;
+    }
+    .unorder
+  {
+    border-left: 3px dashed #86DFD2;
+    li{
+      color: #86DFD2;
+    }
+  }
+  }
+ 
+  
+  .line2
+  {
+  
+  
+  position: absolute;
+  left: 12rem;
+    top: 8rem;
+  width: 15rem;
+  height: 3px;
+  background-color: #768f8b;
+  }
+
+  .circle2
+  {
+
+    position: absolute;
+    width: 2rem;
+    top: 7rem;
+    border-radius: 50%;
+    left: 27rem;
+    height: 30px;
+    background-color: #86DFD2; 
+    .head
+    {
+      position: relative;
+      color: white;
+      top: 2rem;
+      left: 1rem;
+    }
+    .unorder
+  {
+    border-left: 3px dashed #86DFD2;
+    li{
+      color: #86DFD2;
+    }
+  }
+  }
 
 
+  .line3
+  {
+  
+  
+  position: absolute;
+  left: 29rem;
+    top: 8rem;
+  width: 16rem;
+  height: 3px;
+  background-color: #768f8b;
+  }
 
 
+  .circle3
+  {
+
+    position: absolute;
+    width: 2rem;
+    top: 7rem;
+    border-radius: 50%;
+    left: 45rem;
+    height: 30px;
+    background-color: #86DFD2; 
+    .head
+    {
+      position: relative;
+      color: white;
+      top: -8rem;
+      left: 1rem;
+    }
+    .unorder
+  {
+    border-left: 3px dashed #86DFD2;
+    li{
+      color: #86DFD2;
+    }
+  }
+  }
 
 
+  .line4
+  {
+  
+  
+  position: absolute;
+  right: 32rem;
+  top: 8rem;
+  width: 16rem;
+  height: 3px;
+  background-color: #768f8b;
+  }
 
+}
 
 
 
@@ -101,7 +291,7 @@
 
 .styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c {
   
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     background-color: #1F2947;
     // padding: 10px;
     
@@ -120,6 +310,41 @@
     // background-image: url(./Media/bg3.png);
     background-color: #0B132B;
     color: white;
-    padding-top: 60px;
+    padding-top: 30px; 
+   
   }
   //Faqs end
+
+
+
+
+  //footer
+  .Footer-section
+  {
+   background-color: #080E21 !important; 
+   ul{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+   }
+    li{
+      font-size: 16px;
+      font-weight: bolder;
+    }
+    .color
+    {
+      color: #6d8bb0;
+      font-weight: 300;
+      padding-left: 15px;
+    }
+    .hrcl
+    {
+      color: #6d8bb0;
+    }
+
+    .iconclr
+    {
+      color: #86DFD2;
+    }
+  }
+
+

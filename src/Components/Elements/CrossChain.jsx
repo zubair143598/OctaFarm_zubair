@@ -8,7 +8,7 @@ const CrossChain = () => {
           <div className="col-lg-1" style={{ marginTop: "5rem" }}></div>
           <div className="col-lg-9" style={{ marginTop: "5rem" }}>
             <h5 className="" style={{ color: "#6fffe9c7" }}>
-              Within 6 Months of Launch
+              EASIEST GATEWAY TO
             </h5>
             <h1 style={{ fontSize: "3rem" }} className="fw-bolder">
               Cross-Chain Yield Farming For All
@@ -22,127 +22,121 @@ const CrossChain = () => {
           <div className="col-lg-1" style={{ marginTop: "5rem" }}></div>
         </div>
 
-        <div className="row text-center">
-          <div className="col-lg-3 investMT2">
-            <div
-              className="card mt-lg-5 mt-3"
-              style={{
-                backgroundColor: "#122845",
-              }}
-            >
-              <div className="card-body">
-                <h4 className="" style={{ color: "#6fffe9c7" }}>
-                  PRIVATE SALE
-                </h4>
-                <p>13th jan, 2022</p>
-                <p
-                  className="fw-bolder"
-                  style={{ color: "#6fffe9c7", fontSize: "13px" }}
-                >
-                  BONUS
-                </p>
-                <h1
-                  className="numstyle"
-                  style={{ fontSize: "4rem", marginTop: "-23px" }}
-                >
-                  7%
-                </h1>
-                <span>
-                  <h5 className="fw-bolder d-inline">Allocation: </h5>
-                  <p className="d-inline"> 1.5% Tokens</p>
-                </span>
-                <br />
-                <span>
-                  <h5 className="fw-bolder d-inline">Price: </h5>
-                  <p className="d-inline">1 BNB = 691.93 OCTF </p>
-                </span>
-              </div>
-            </div>
+        <div className="row mt-5 " style={{ position: "relative" }}>
+          <div className="col-lg-2">
+            <ul className="list-unstyled">
+              <li className="text-end" style={{
+                  position: "absolute",
+                  top: "-1rem",
+                  left: "1rem",
+                  width: "17%",
+                }}>
+                <p className="d-inline mx-3" >Binance</p>
+                <img
+                  src="https://octafarm.fi/_next/static/image/src/assets/images/BSC.9142e1281fff2051cf1976cf27fa322c.svg"
+                  className="w-25"
+                  alt=""
+                />
+              </li>
+              <li
+                className="text-end"
+                style={{
+                  position: "absolute",
+                  top: "5rem",
+                  left: "1rem",
+                  width: "17%",
+                }}
+              >
+                <p className="d-inline mx-4">Polygon</p>
+                <img
+                  src="https://octafarm.fi/_next/static/image/src/assets/images/MATIC.d0306e5a877a16624114e6c88576b334.svg"
+                  className="w-25"
+                  alt=""
+                />
+              </li>
+              <li className="text-end" style={{
+                  position: "absolute",
+                  top: "13rem",
+                  left: "1rem",
+                  width: "17%",
+                }}>
+                <p className="d-inline mx-3">Moonbeam</p>
+                <img
+                  src="https://octafarm.fi/_next/static/image/src/assets/images/MOON.dda25e37f4a01f397d58ae41fe9e847f.svg"
+                  className="w-25"
+                  alt=""
+                />
+              </li>
+              <li className="text-end " style={{
+                  position: "absolute",
+                  top: "20rem",
+                  left: "1rem",
+                  width: "17%",
+                }}>
+                <p className="d-inline mx-3">Avalanche</p>
+                <img
+                  src="https://octafarm.fi/_next/static/image/src/assets/images/AVAX.1ebf2d23750b3f69e124384311d3dd3a.svg"
+                  className="w-25"
+                  alt=""
+                />
+              </li>
+            </ul>
           </div>
-          <div className="col-lg-1"></div>
-
-          <div className="col-lg-3 investMT2">
-            <div
-              className="card mt-lg-5 mt-3"
-              style={{
-                backgroundColor: "#122845",
-              }}
-            >
-              <div className="card-body">
-                <h4 className="" style={{ color: "#6fffe9c7" }}>
-                  PRE SALE
-                </h4>
-                <p>15th jan, 2022 @pinkSale</p>
-                <p
-                  className="fw-bolder"
-                  style={{ color: "#6fffe9c7", fontSize: "13px" }}
-                >
-                  BONUS
-                </p>
-                <h1
-                  className="numstyle"
-                  style={{ fontSize: "3rem", marginTop: "-23px" }}
-                >
-                  3%
-                </h1>
-                <span>
-                  <h5 className="fw-bolder d-inline">Allocation: </h5>
-                  <p className="d-inline"> 5% Tokens</p>
-                </span>
-                <br />
-                <span>
-                  <h5 className="fw-bolder d-inline">Price: </h5>
-                  <p className="d-inline">1 BNB = 666.66 OCTF </p>
-                </span>
-                <br />
-                
-              </div>
-            </div>
+          <div className="col-lg-1">
+            <img src="./Assists/10002.svg" className="" alt="" />
           </div>
-          <div className="col-lg-1"></div>
-
-          <div className="col-lg-3 investMT2">
-            <div
-              className="card mt-lg-5 mt-3"
-              style={{
-                backgroundColor: "#122845",
-              }}
+          <div className="col-lg-2">
+            <img
+              src="./Assists/10004.svg"
+              className="w-25"
+              style={{ position: "absolute", top: "52px", left: "25rem" }}
+              alt=""
+            />
+          </div>
+          <div className="col-lg-1">
+            <img
+              src="./Assists/10005.svg"
+              style={{ position: "absolute", top: "52px", left: "44rem" }}
+              alt=""
+            />
+          </div>
+          <div className="col-lg-2">
+            <ul
+              className="list-group right-table"
+              style={{ position: "absolute", top: "32px", right: "19rem" }}
             >
-              <div className="card-body">
-                <h4 className="" style={{ color: "#6fffe9c7" }}>
-                  LISTING
-                </h4>
-                <p>Pancakeswap</p>
-                <p
-                  className="fw-bolder"
-                  style={{ color: "#6fffe9c7", fontSize: "13px" }}
-                >
-                  Listing price
-                </p>
-                <h1
-                  className="numstyle"
-                  style={{ fontSize: "4rem", marginTop: "-23px" }}
-                >
-                  $0.75%
-                </h1>
-                <span>
-                  <h5 className="fw-bolder d-inline">Allocation: </h5>
-                  <p className="d-inline"> 1.5% Tokens</p>
-                </span>
-                <br />
-                <span>
-                  <h5 className="fw-bolder d-inline">Price: </h5>
-                  <p className="d-inline">1 BNB = 691.93 OCTF </p>
-                </span>
-                <a
-                  target="_blank"
-                  href="https://app.octafarm.fi/#/bsc"
-                  className="mt-4 text-white btn border p-2 btn1 mx-3 px-5 fs-5 "
-                >
-                  Buy OCTF
-                </a>
-              </div>
-            </div>
+              <li className="list-group-item">PancakeSwap Vaults</li>
+              <li className="list-group-item" style={{ marginTop: "34px" }}>
+                QuickSwap Vaults
+              </li>
+              <li className="list-group-item" style={{ marginTop: "34px" }}>
+                SolarBeam Vaults
+              </li>
+              <li className="list-group-item" style={{ marginTop: "34px" }}>
+                Trader Joe Vaults
+              </li>
+            </ul>
+          </div>
+          <div className="col-lg-1">
+            <img
+              src="./Assists/10006.svg"
+              style={{ position: "absolute", top: "52px", right: "14rem" }}
+              alt=""
+            />
+          </div>
+          <div className="col-lg-1">
+            <ul
+              className="list-group right-table"
+              style={{ position: "absolute", top: "50px", right: "2rem" }}
+            >
+              <li className="list-group-item">Auto-Comp. Pools</li>
+              <li className="list-group-item" style={{ marginTop: "49px" }}>
+                Multi-Dex Strategy
+              </li>
+              <li className="list-group-item" style={{ marginTop: "50px" }}>
+                Maximizer Pools
+              </li>
+            </ul>
           </div>
         </div>
       </div>
