@@ -5,14 +5,15 @@ export const PrivateSale = () => {
     <div className="PrivateSale-sextion">
         <div className="container text-white">
         <div className="row text-center ">
-          <div className="col-lg-3 investMT2 mt-5">
+          <div className="col-lg-3 investMT2 mt-5 ">
             <div
-              className="card mt-lg-5 mt-3"
+              className="card mt-lg-5 mt-3 position-relative"
               style={{
                 backgroundColor: "#122845",
               }}
             >
-              <div className="card-body">
+              <div className="card-body"> 
+              <span className="coming">completed</span>
                 <h4 className="" style={{ color: "#6fffe9c7" }}>
                   PRIVATE SALE
                 </h4>
@@ -45,12 +46,14 @@ export const PrivateSale = () => {
 
           <div className="col-lg-3 investMT2 mt-5">
             <div
-              className="card mt-lg-5 mt-3"
+              className="card mt-lg-5 mt-3 position-relative"
               style={{
                 backgroundColor: "#122845",
               }}
             >
               <div className="card-body">
+              <span className="coming">completed</span>
+
                 <h4 className="" style={{ color: "#6fffe9c7" }}>
                   PRE SALE
                 </h4>
@@ -85,12 +88,14 @@ export const PrivateSale = () => {
 
           <div className="col-lg-3 investMT2 mt-5">
             <div
-              className="card mt-lg-5 mt-3"
+              className="card mt-lg-5 mt-3 position-relative"
               style={{
                 backgroundColor: "#122845",
               }}
             >
               <div className="card-body">
+              <span className="LiveNow">Live Now</span>
+
                 <h4 className="" style={{ color: "#6fffe9c7" }}>
                   LISTING
                 </h4>

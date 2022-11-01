@@ -103,6 +103,38 @@
   {
     background-color: #6fffe9c7;
   }
+
+  .coming {
+    line-height: 11px;
+    letter-spacing: 2px;
+    position: absolute;
+    display: block;
+    font-size: 10px !important;
+    padding: 3px 14px;
+    background-color: #5BC0BE;
+    color: #0B132B;
+    font-weight: 700;
+    transform: rotate(-40deg);
+    top: 23px;
+    left: -8px;
+  }
+
+  .LiveNow
+  {
+    line-height: 11px;
+    letter-spacing: 2px;
+    position: absolute;
+    display: block;
+    font-size: 10px !important;
+    padding: 3px 14px;
+    background-color: red;
+    color: #0B132B;
+    font-weight: 700;
+    transform: rotate(-40deg);
+    top: 23px;
+    left: -8px;
+
+  }
 }
 
 
