@@ -11,7 +11,7 @@ const Header = () => {
       </a>
 
       <button
-        className=" color navbar-toggler"
+        className=" color text-white navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
@@ -19,7 +19,7 @@ const Header = () => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon" />
+        <span className="navbar-toggler-icon text-white" />
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">

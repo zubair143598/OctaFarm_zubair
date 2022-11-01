@@ -11,15 +11,15 @@ const Footer = () => {
     <div className="Footer-section">
       <div className="container">
         <div className="row">
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-6">
             <ul className="list-unstyled text-white ">
               <li className="text-start ">COMPANY</li>
               <li className="color">Bug Bounty</li>
               <li className="color">Jobs / Career</li>
             </ul>
           </div>
-          <div className="col-lg-1"></div>
-          <div className="col-lg-2">
+          <div className="col-lg-1 col-1"></div>
+          <div className="col-lg-2 col-5">
             <ul className="list-unstyled text-white ">
               <li className="text-start ">DEVELOPER</li>
               <li className="color">Octa Farm Documentation</li>
@@ -27,16 +27,16 @@ const Footer = () => {
               <li className="color">Explore Github</li>
             </ul>
           </div>
-          <div className="col-lg-1"></div>
-          <div className="col-lg-2">
+          <div className="col-lg-1 col-1"></div>
+          <div className="col-lg-2 col-5">
             <ul className="list-unstyled text-white ">
               <li className="text-start ">COMMUNITY</li>
               <li className="color">Telegram</li>
               <li className="color">Blog</li>
             </ul>
           </div>
-          <div className="col-lg-1"></div>
-          <div className="col-lg-2">
+          <div className="col-lg-1 col-1"></div>
+          <div className="col-lg-2 col-5">
             <ul className="list-unstyled text-white ">
               <li className="text-start ">LEGAL</li>
               <li className="color">Privacy & Terms</li>
